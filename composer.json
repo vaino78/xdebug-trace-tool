@@ -1,0 +1,22 @@
+{
+    "name": "vaino78/xdebug-trace-tool",
+    "description": "Yet another xDebug trace parsing tool",
+    "type": "project",
+    "authors": [
+        {
+            "name": "Ivan Danilov",
+            "email": "ivan.danilov@lenvendo.ru"
+        }
+    ],
+    "autoload": {
+        "psr-4": {
+            "XDebugTraceTool\\": "src/"
+        }
+    },
+    "require": {
+        "symfony/console": "^4.3"
+    },
+    "scripts": {
+        "app": "php ./bin/app.php"
+    }
+}
