@@ -28,7 +28,7 @@ class XmlTree
         }
 
         if(isset($this->lastDepth)) {
-            $closing = ($this->lastDepth - $depth - $this->beginDepth + 1);
+            $closing = ($this->lastDepth - $depth + 1);
             if($closing < 0) {
                 $this->openTags($closing*-1, 't');
             } elseif ($closing > 0) {
